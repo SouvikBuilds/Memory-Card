@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const flipSound = new Audio('flipCard.mp3')
     const bgMusic = new Audio('bgmusic.mp3')
     const gameOverSound = new Audio('gameOver.mp3')
-    const matchingSound = new Audio('matching.mp3')
+    const matchingSound = new Audio('Matching.mp3')
     const victorySound = new Audio('victory.mp3')
 
     // Assign emojis to cards
