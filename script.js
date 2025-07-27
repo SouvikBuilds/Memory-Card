@@ -37,9 +37,8 @@ document.addEventListener("DOMContentLoaded", function () {
                     const [card1, card2] = flipped;
 
                     if (card1.dataset.emoji === card2.dataset.emoji) {
+                        matchingSound.currentTime = 0
                         matchingSound.play()
-                        card1.style.borderColor = "green"
-                        card2.style.borderColor = "green"
                         score += 1;
                         flipped = [];
                         scoreDiv.innerHTML = `<h3>Score: ${score}</h3>`
